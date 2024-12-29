@@ -1,0 +1,480 @@
+html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        /* Header + Nav */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            padding-top: 22px;
+            padding-right: 105px;
+            padding-left: 105px;
+            padding-bottom: 22px;
+        
+
+            font-size: 16px;
+            font-weight: 400;
+            background-color: #f5f7fa;
+        } 
+       
+        
+        nav  {
+            display: flex;
+            gap: 50px;
+        }
+
+        a{
+         text-decoration: none;   
+         color: black;
+        }
+
+
+
+       /* Button Login + Sign */
+        .Login {
+            border-style: none;
+            background-color: #f5f7fa;
+            color: #4CAF4F;
+
+        }
+        .Sign {
+            border-style: none;
+            background-color: #4CAF4F;
+            color: white;
+            width: 91px;
+            height: 40px;
+            border-radius: 6px;
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            gap: 10px;
+        }
+
+        
+           
+        /* Section Hero */
+
+        .header-2 { 
+            background-color:  rgba(245, 247, 250, 1);
+            display: flex;
+            justify-content:space-around;
+            gap: 104px;
+            padding-top: 96px;
+            padding-bottom: 96px;
+            padding-left: 144px;
+            padding-right: 144px;
+          }
+        
+        
+            
+        h1 { 
+        
+        font-family: "Inter", sans-serif;
+            font-size: 64px;
+            color:  #000000;
+            
+        }
+        h1 span { 
+            color: #4CAF4F;
+        }
+        
+        
+        h2 {
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: #717171;
+        }
+
+        .Register { 
+            border-style: none;
+            background-color: #4CAF4F;
+            color: white; 
+            padding-top: 14px;
+            padding-right: 32px;
+            padding-bottom: 14px;
+            padding-left: 32px;
+            width: 128px;
+            height: 52px;
+            border-radius: 4px;
+            text-size-adjust: 16px;
+        
+        }
+        /* Section Community */
+
+        .container {
+            justify-content: space-between;
+            display: flex;
+            text-align: center;
+            margin: 16px auto;
+            padding-right: 144px;
+            padding-left: 144px;
+            gap: 50px;
+        
+         
+        }
+
+        h2 {
+            text-align: center;
+            font-family: "Inter", sans-serif;
+            font-size: 28px;
+            color: #4D4D4D;
+            font-weight: 600;
+        }
+        
+        
+    h3 {
+            text-align: center;
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            color: rgba(113, 113, 113, 1);
+        
+    }
+    
+        .card {
+            justify-content: space-between;
+            background-color: white;
+            box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+            gap: 8px;
+            padding-top: 24px;
+            padding-right: 32px;
+            padding-bottom: 24px;
+            padding-left: 32px;
+            border-radius: 8px;
+            width: 299px;
+            height: 260px;
+            text-align: center;
+            
+ }
+
+   /* Section Unlock */
+ .unlock {
+            background-color: white;
+            display: flex;
+            justify-content:space-between;
+            padding-top: 52px;
+            padding-bottom: 52px;
+            padding-left: 144px;
+            padding-right: 144px;
+
+}
+  h4 {
+            text-align: left;
+            font-family: "Inter", sans-serif;
+            font-size: 36px;
+            color: rgba(77, 77, 77, 1);
+   
+
+  }
+
+    /*Button Learn More */
+
+    .Learn {
+            border-style: none;
+            background-color: #4CAF4F;
+            color: white; 
+            padding-top: 14px;
+            padding-right: 32px;
+            padding-bottom: 14px;
+            padding-left: 32px;
+            border-radius: 4px;
+  }      
+    /* Section Calender */
+
+  .calender {
+    background-color: white;
+    display: flex;
+   justify-content:space-between;
+   padding-top: 52px;
+   padding-bottom: 52px;
+   padding-left: 144px;
+   padding-right: 144px;
+  }
+
+
+    /* Button Learn More 2 */
+
+    .learn2 {
+            border-style: none;
+            background-color: #4CAF4F;
+            color: white; 
+            padding-top: 14px;
+            padding-right: 32px;
+            padding-bottom: 14px;
+            padding-left: 32px;
+            border-radius: 4px;
+  }
+        
+  footer {
+    text-align: center;
+    align-items: center;
+  }
+  
+  /*Style box4 footer*/
+  .box4 {
+    background-color: #f5f7fa;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    max-width: 1200px;
+    max-height: 364px;
+    margin-left: 245px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+  }
+  
+  .box4 h1 {
+    font-size: 64px;
+  }
+  
+  /*Style footer noir (Copyrights...*/
+  .footer-noir {
+    background-color: #263238;
+    padding-top: 64px;
+    padding-left: 165px;
+    padding-bottom: 64px;
+    padding-right: 165px;
+    
+
+  }
+  .footer-noir p {
+    color: #f5f7fa;
+  }
+        
+        
+        /* Pour les écrans de tablette (768px et moins) */
+@media (max-width: 768px) {
+    /* Header */
+    .header {
+        flex-wrap: wrap; /* Permet un ajustement fluide des éléments */
+        padding: 12px 5%;
+    }
+
+    nav {
+        gap: 20px; /* Réduit l'espacement entre les liens */
+    }
+
+    .Login, .Sign {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    /* Section Hero */
+    .header-2 {
+        flex-direction: column; /* Place les éléments verticalement */
+        padding: 40px 8%;
+        gap: 20px;
+    }
+
+    .header-2 h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .header-2 p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    /* Section Community */
+    .container {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .card {
+        flex: 1 1 80%; /* Ajuste la largeur des cartes */
+        max-width: 320px;
+    }
+
+    /* Section Unlock */
+    .unlock {
+        flex-direction: column; /* Empile les éléments verticalement */
+        text-align: center;
+        padding: 40px 8%;
+    }
+
+    .unlock img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .unlock h4 {
+        font-size: 1.8rem;
+    }
+
+    .unlock p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* Section Calendar */
+    .calender {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 8%;
+        gap: 20px;
+    }
+
+    .calender img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .calender h4 {
+        font-size: 1.6rem;
+    }
+}
+
+/* Pour les écrans de tablette (768px et moins) */
+@media (max-width: 768px) {
+    /* Header */
+    .header {
+        flex-wrap: wrap; /* Permet une disposition fluide sans modifier les images */
+        padding: 12px 5%;
+    }
+
+    nav {
+        gap: 20px; /* Réduit l'espacement entre les liens */
+        justify-content: center;
+    }
+
+    .Login, .Sign {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    /* Section Hero */
+    .header-2 {
+        flex-direction: column; /* Empile les éléments verticalement */
+        text-align: center;
+        padding: 40px 8%;
+        gap: 20px;
+    }
+
+    .header-2 h1 {
+        font-size: 2rem;
+    }
+
+    .header-2 p {
+        font-size: 1rem;
+    }
+
+    /* Section Community */
+    .container {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .card {
+        flex: 1 1 80%; /* Les cartes s'adaptent sans changer les images */
+        max-width: 320px;
+    }
+
+    /* Section Unlock */
+    .unlock {
+        flex-direction: column; /* Empile les éléments verticalement */
+        text-align: center;
+        padding: 40px 8%;
+        gap: 20px;
+    }
+
+    .unlock h4 {
+        font-size: 1.8rem;
+    }
+
+    .unlock p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* Section Calendar */
+    .calender {
+        flex-direction: column; /* Empile les éléments verticalement */
+        text-align: center;
+        padding: 40px 8%;
+        gap: 20px;
+    }
+
+    .calender h4 {
+        font-size: 1.6rem;
+    }
+}
+
+/* Pour les petits écrans (480px et moins) */
+@media (max-width: 480px) {
+    /* Header */
+    .header {
+        flex-wrap: wrap;
+        padding: 8px 5%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .Login, .Sign {
+        width: 100%; /* Boutons en pleine largeur */
+        margin-bottom: 10px;
+        font-size: 0.8rem;
+    }
+
+    /* Section Hero */
+    .header-2 {
+        padding: 20px 5%;
+        gap: 16px;
+    }
+
+    .header-2 h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-2 p {
+        font-size: 0.9rem;
+    }
+
+    .Register {
+        width: 100%; /* Bouton en pleine largeur */
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    /* Section Community */
+    .container {
+        flex-direction: column; /* Les cartes s'empilent verticalement */
+        gap: 16px;
+    }
+
+    .card {
+        width: 90%; /* Largeur adaptative sans toucher aux images */
+        margin: 0 auto;
+    }
+
+    /* Section Unlock */
+    .unlock h4 {
+        font-size: 1.4rem;
+    }
+
+    .unlock p {
+        font-size: 0.9rem;
+    }
+
+    /* Section Calendar */
+    .calender h4 {
+        font-size: 1.4rem;
+    }
+
+    .learn2 {
+        width: 100%; /* Bouton en pleine largeur */
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+}
